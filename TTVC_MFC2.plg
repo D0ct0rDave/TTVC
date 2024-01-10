@@ -1,0 +1,216 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TTVC_MFC2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc0a /fo"Release/TTVC_MFC2.res" /d "NDEBUG" "D:\Programming\Projects\TTVC_MFC2\TTVC_MFC2.rc"" 
+Creating temporary file "C:\DOCUME~1\PEPEMA~1.ICA\CONFIG~1\Temp\RSP10.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\\" /I "PascalCnv" /I "Misc" /I "Controls" /I "SongStructs" /D "NDEBUG" /D "MFCS" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "USE_MIDI" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Programming\Projects\TTVC_MFC2\GUIS\Main\MainFrm.cpp"
+"D:\Programming\Projects\TTVC_MFC2\GUIS\Main\mdiclient.cpp"
+"D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp"
+"D:\Programming\Projects\TTVC_MFC2\GUIS\BEd\BEd.cpp"
+"D:\Programming\Projects\TTVC_MFC2\GUIS\BRep\BRep.cpp"
+"D:\Programming\Projects\TTVC_MFC2\GUIS\TrackProperties\TrackProperties.cpp"
+"D:\Programming\Projects\TTVC_MFC2\GUIS\BSeq\BSeq.cpp"
+"D:\Programming\Projects\TTVC_MFC2\GUIS\InputBox\InputBox.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Controls\BMPResource.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Controls\BtnMgr.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Controls\Label.cpp"
+"D:\Programming\Projects\TTVC_MFC2\PascalCnv\PascalIO.cpp"
+"D:\Programming\Projects\TTVC_MFC2\PascalCnv\PascalString.cpp"
+"D:\Programming\Projects\TTVC_MFC2\PLAYER\MIDIInClient\CNETClient.cpp"
+"D:\Programming\Projects\TTVC_MFC2\PLAYER\MIDIInClient\CNETServer.cpp"
+"D:\Programming\Projects\TTVC_MFC2\PLAYER\MIDIInClient\CNETSystem.cpp"
+"D:\Programming\Projects\TTVC_MFC2\PLAYER\MIDIInClient\MIDIInClient.cpp"
+"D:\Programming\Projects\TTVC_MFC2\PLAYER\OMidiIn.cpp"
+"D:\Programming\Projects\TTVC_MFC2\PLAYER\OMidiOut.cpp"
+"D:\Programming\Projects\TTVC_MFC2\PLAYER\tt98Player.cpp"
+"D:\Programming\Projects\TTVC_MFC2\SongStructs\bloques.cpp"
+"D:\Programming\Projects\TTVC_MFC2\SongStructs\consts2.cpp"
+"D:\Programming\Projects\TTVC_MFC2\SongStructs\CrtError.cpp"
+"D:\Programming\Projects\TTVC_MFC2\SongStructs\FICHEROS.cpp"
+"D:\Programming\Projects\TTVC_MFC2\SongStructs\InfoPistas.cpp"
+"D:\Programming\Projects\TTVC_MFC2\SongStructs\Inter.cpp"
+"D:\Programming\Projects\TTVC_MFC2\SongStructs\Tefectos.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Misc\Config.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Misc\LangStrs.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Misc\MiscIns.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Misc\Msgs.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Misc\Parser.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Misc\Pistas22.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Misc\RList.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Misc\Strlist.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Misc\TckAMid.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Misc\Variables.cpp"
+"D:\Programming\Projects\TTVC_MFC2\Misc\WinVars.cpp"
+"D:\Programming\Projects\TTVC_MFC2\TTVC_MFC2.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PEPEMA~1.ICA\CONFIG~1\Temp\RSP10.tmp" 
+Creating temporary file "C:\DOCUME~1\PEPEMA~1.ICA\CONFIG~1\Temp\RSP11.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\\" /I "PascalCnv" /I "Misc" /I "Controls" /I "SongStructs" /D "NDEBUG" /D "MFCS" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "USE_MIDI" /Fp"Release/TTVC_MFC2.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Programming\Projects\TTVC_MFC2\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PEPEMA~1.ICA\CONFIG~1\Temp\RSP11.tmp" 
+Creating temporary file "C:\DOCUME~1\PEPEMA~1.ICA\CONFIG~1\Temp\RSP12.tmp" with contents
+[
+winmm.lib wsock32.lib /nologo /subsystem:windows /incremental:no /pdb:"././TTVC.pdb" /machine:I386 /out:"TTVC.exe" 
+.\Release\MainFrm.obj
+.\Release\mdiclient.obj
+.\Release\PattEd.obj
+.\Release\BEd.obj
+.\Release\BRep.obj
+.\Release\TrackProperties.obj
+.\Release\BSeq.obj
+.\Release\InputBox.obj
+.\Release\BMPResource.obj
+.\Release\BtnMgr.obj
+.\Release\Label.obj
+.\Release\PascalIO.obj
+.\Release\PascalString.obj
+.\Release\CNETClient.obj
+.\Release\CNETServer.obj
+.\Release\CNETSystem.obj
+.\Release\MIDIInClient.obj
+.\Release\OMidiIn.obj
+.\Release\OMidiOut.obj
+.\Release\tt98Player.obj
+.\Release\bloques.obj
+.\Release\consts2.obj
+.\Release\CrtError.obj
+.\Release\FICHEROS.obj
+.\Release\InfoPistas.obj
+.\Release\Inter.obj
+.\Release\Tefectos.obj
+.\Release\Config.obj
+.\Release\LangStrs.obj
+.\Release\MiscIns.obj
+.\Release\Msgs.obj
+.\Release\Parser.obj
+.\Release\Pistas22.obj
+.\Release\RList.obj
+.\Release\Strlist.obj
+.\Release\TckAMid.obj
+.\Release\Variables.obj
+.\Release\WinVars.obj
+.\Release\StdAfx.obj
+.\Release\TTVC_MFC2.obj
+.\Release\TTVC_MFC2.res
+]
+Creating command line "link.exe @C:\DOCUME~1\PEPEMA~1.ICA\CONFIG~1\Temp\RSP12.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+mdiclient.cpp
+PattEd.cpp
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(193) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(345) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(345) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(259) : warning C4101: 'wmId' : unreferenced local variable
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(259) : warning C4101: 'wmEvent' : unreferenced local variable
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(457) : warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(464) : warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(861) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(862) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(863) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(1160) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(1199) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(1635) : warning C4101: 'AltoV' : unreferenced local variable
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(1635) : warning C4101: 'AnchoV' : unreferenced local variable
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(2087) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(2090) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(2091) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(2092) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(2136) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\GUIS\PattEd\PattEd.cpp(2074) : warning C4101: 'MidiOutPort' : unreferenced local variable
+BEd.cpp
+D:\Programming\Projects\TTVC_MFC2\GUIS\BEd\BEd.cpp(116) : warning C4101: 'wmId' : unreferenced local variable
+D:\Programming\Projects\TTVC_MFC2\GUIS\BEd\BEd.cpp(116) : warning C4101: 'wmEvent' : unreferenced local variable
+BRep.cpp
+D:\Programming\Projects\TTVC_MFC2\GUIS\BRep\BRep.cpp(123) : warning C4101: 'wmId' : unreferenced local variable
+D:\Programming\Projects\TTVC_MFC2\GUIS\BRep\BRep.cpp(123) : warning C4101: 'wmEvent' : unreferenced local variable
+TrackProperties.cpp
+D:\Programming\Projects\TTVC_MFC2\GUIS\TrackProperties\TrackProperties.cpp(142) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Programming\Projects\TTVC_MFC2\GUIS\TrackProperties\TrackProperties.cpp(264) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Programming\Projects\TTVC_MFC2\GUIS\TrackProperties\TrackProperties.cpp(274) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+BSeq.cpp
+InputBox.cpp
+BMPResource.cpp
+BtnMgr.cpp
+Label.cpp
+PascalIO.cpp
+PascalString.cpp
+CNETClient.cpp
+CNETServer.cpp
+D:\Programming\Projects\TTVC_MFC2\PLAYER\MIDIInClient\CNETServer.cpp(41) : warning C4018: '==' : signed/unsigned mismatch
+CNETSystem.cpp
+D:\Programming\Projects\TTVC_MFC2\PLAYER\MIDIInClient\CNETSystem.cpp(67) : warning C4101: 'iSize' : unreferenced local variable
+D:\Programming\Projects\TTVC_MFC2\PLAYER\MIDIInClient\CNETSystem.cpp(293) : warning C4101: 'nFromLen' : unreferenced local variable
+D:\Programming\Projects\TTVC_MFC2\PLAYER\MIDIInClient\CNETSystem.cpp(306) : warning C4101: 'iSize' : unreferenced local variable
+MIDIInClient.cpp
+OMidiIn.cpp
+OMidiOut.cpp
+D:\Programming\Projects\TTVC_MFC2\PLAYER\OMidiOut.cpp(78) : warning C4101: 'M' : unreferenced local variable
+tt98Player.cpp
+D:\Programming\Projects\TTVC_MFC2\PLAYER\tt98Player.cpp(639) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\PLAYER\tt98Player.cpp(640) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\PLAYER\tt98Player.cpp(675) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\PLAYER\tt98Player.cpp(676) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\PLAYER\tt98Player.cpp(726) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\PLAYER\tt98Player.cpp(727) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\PLAYER\tt98Player.cpp(747) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Generating Code...
+D:\Programming\Projects\TTVC_MFC2\GUIS\BSeq\BSeq.cpp(147) : warning C4715: 'CSeqListBox::WindowProc' : not all control paths return a value
+D:\Programming\Projects\TTVC_MFC2\GUIS\BSeq\BSeq.cpp(233) : warning C4715: 'CBSeq::DefWindowProcA' : not all control paths return a value
+Compiling...
+bloques.cpp
+D:\Programming\Projects\TTVC_MFC2\SongStructs\bloques.cpp(89) : warning C4101: 'Cantidad' : unreferenced local variable
+D:\Programming\Projects\TTVC_MFC2\SongStructs\bloques.cpp(89) : warning C4101: 'Pos' : unreferenced local variable
+consts2.cpp
+CrtError.cpp
+FICHEROS.cpp
+InfoPistas.cpp
+Inter.cpp
+D:\Programming\Projects\TTVC_MFC2\SongStructs\TRACKS.CPP(122) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+Tefectos.cpp
+Config.cpp
+D:\Programming\Projects\TTVC_MFC2\Misc\Config.cpp(69) : warning C4101: 'j' : unreferenced local variable
+LangStrs.cpp
+MiscIns.cpp
+D:\Programming\Projects\TTVC_MFC2\Misc\MiscIns.cpp(75) : warning C4101: 'Code' : unreferenced local variable
+Msgs.cpp
+Parser.cpp
+Pistas22.cpp
+D:\Programming\Projects\TTVC_MFC2\Misc\Pistas22.cpp(51) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\Misc\Pistas22.cpp(116) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\Misc\Pistas22.cpp(124) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\Misc\Pistas22.cpp(132) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\Misc\Pistas22.cpp(213) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+D:\Programming\Projects\TTVC_MFC2\Misc\Pistas22.cpp(221) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+RList.cpp
+Strlist.cpp
+TckAMid.cpp
+Variables.cpp
+WinVars.cpp
+TTVC_MFC2.cpp
+D:\Programming\Projects\TTVC_MFC2\TTVC_MFC2.cpp(329) : warning C4101: 'ccs' : unreferenced local variable
+D:\Programming\Projects\TTVC_MFC2\TTVC_MFC2.cpp(471) : warning C4101: 'ccs' : unreferenced local variable
+Generating Code...
+D:\Programming\Projects\TTVC_MFC2\Misc\MiscIns.cpp(88) : warning C4700: local variable 'I' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+TTVC.exe - 0 error(s), 55 warning(s)
+</pre>
+</body>
+</html>

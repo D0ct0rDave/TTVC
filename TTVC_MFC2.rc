@@ -1,0 +1,507 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TTVC_MFC2.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.esp\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\TTVC_MFC2.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_ICON2               ICON    DISCARDABLE     "res\\icon2.ico"
+IDI_ICON3               ICON    DISCARDABLE     "res\\icon3.ico"
+IDI_ICON4               ICON    DISCARDABLE     "res\\icon4.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME_MENU MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Archivo"
+    BEGIN
+        MENUITEM "&Nuevo\tCtrl+N",              ID_ARCHIVO_NUEVO
+        MENUITEM "&Cargar Tema\tCtrl+O",        ID_ARCHIVO_ABRIR
+        MENUITEM "Guardar Tema\tCtrl+S",        ID_ARCHIVO_GUARDARTEMA
+        MENUITEM "Guardar Tema Como ...\tCtrl+Alt+S", 
+                                                ID_ARCHIVO_GUARDARTEMACOMO
+        MENUITEM SEPARATOR
+        MENUITEM "Exportar a MIDI",             ID_ARCHIVO_EXPORTARAMIDI
+        MENUITEM SEPARATOR
+        POPUP "Archivos Recientes"
+        BEGIN
+            MENUITEM "00000",                       ID_RECENTFILE_00
+            MENUITEM "11111",                       ID_RECENTFILE_01
+            MENUITEM "22222",                       ID_RECENTFILE_02
+            MENUITEM "33333",                       ID_RECENTFILE_03
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Salir\tCtrl+Q",              ID_APP_EXIT
+    END
+    POPUP "&Edición"
+    BEGIN
+        POPUP "&Patrón", MENUBREAK
+        BEGIN
+            MENUITEM "Copiar \tCtrl+F5",            ID_EDICIN_PATRN_COPIAR
+            MENUITEM "Cortar\tCtrl+F6",             ID_EDICIN_PATRN_CORTAR
+            MENUITEM "Pegar\tCtrl+F7",              ID_EDICIN_PATRN_PEGAR
+            MENUITEM "Borrar\tCtrl+F8",             ID_EDICIN_PATRN_BORRAR
+            MENUITEM SEPARATOR
+            MENUITEM "Cargar",                      ID_EDICIN_PATRN_CARGAR
+            MENUITEM "Salvar",                      ID_EDICIN_PATRN_SALVAR
+        END
+        POPUP "Pista"
+        BEGIN
+            MENUITEM "Copiar\tShift+F5",            ID_EDICIN_PISTA_COPIAR
+            MENUITEM "Cortar\tShift+F6",            ID_EDICIN_PISTA_CORTAR
+            MENUITEM "Pegar\tShift+F7",             ID_EDICIN_PISTA_PEGAR
+            MENUITEM "Borrar\tShift+F8",            ID_EDICIN_PISTA_BORRAR
+            MENUITEM SEPARATOR
+            MENUITEM "Processar volumen\tCtrl+V",   ID_EDICIN_PISTA_PROCESSARVOLUMEN
+            , GRAYED
+            MENUITEM "Procesar efecto\tCtrl+F",     ID_EDICIN_PISTA_PROCESAREFECTO
+            , GRAYED
+            MENUITEM SEPARATOR
+            MENUITEM "Cargar",                      ID_EDICIN_PISTA_CARGAR
+            MENUITEM "Salvar",                      ID_EDICIN_PISTA_SALVAR
+        END
+        POPUP "Bloque"
+        BEGIN
+            MENUITEM "CopiarF5",                    ID_EDICIN_BLOQUE_COPIAR
+            MENUITEM "Cortar\tF6",                  ID_EDICIN_BLOQUE_CORTAR
+            MENUITEM "Pegar\tF7",                   ID_EDICIN_BLOQUE_PEGAR
+            MENUITEM "Borrar\tF8",                  ID_EDICIN_BLOQUE_BORRAR
+            MENUITEM SEPARATOR
+            MENUITEM "Cargar",                      ID_EDICIN_BLOQUE_CARGAR
+            MENUITEM "Salvar",                      ID_EDICIN_BLOQUE_SALVAR
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Tablas de Efectos\tCtrl+E",   ID_EDICIN_TABLASDEEFECTOS
+        MENUITEM "Tablas de Instrumentos\tCtrl+I", 
+                                                ID_EDICIN_TABLASDEINSTRUMENTOS
+
+        POPUP "Opciones", GRAYED
+        BEGIN
+            MENUITEM "Entrada MIDI",                ID_EDICIN_OPCIONES_ENTRADAMIDI
+            , GRAYED
+        END
+    END
+    POPUP "&Ver"
+    BEGIN
+        MENUITEM "Barra de &Reproducción\tCtrl+1", 
+                                                ID_VER_BARRADEREPRODUCCION
+        , CHECKED
+        MENUITEM "Barra de &Secuencia\tCtrl+2", ID_VER_BARRADESECUENCIA
+        , CHECKED
+        MENUITEM "Barra de &Edición\tCtrl+3",   ID_VER_BARRADEEDICIN
+        , CHECKED
+        MENUITEM "Barra de Es&tado\tCtrl+4",    ID_VIEW_STATUS_BAR, CHECKED
+    END
+    POPUP "Ay&uda"
+    BEGIN
+        MENUITEM "&Acerca de TTVC_MFC2...",     ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME_ACCEL ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "1",            ID_VER_BARRADEREPRODUCCION, VIRTKEY, CONTROL, NOINVERT
+    "2",            ID_VER_BARRADESECUENCIA, VIRTKEY, CONTROL, NOINVERT
+    "3",            ID_VER_BARRADEEDICIN,   VIRTKEY, CONTROL, NOINVERT
+    "4",            ID_VIEW_STATUS_BAR,     VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_ENABLE_EDITION,      VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_EDICIN_TABLASDEEFECTOS, VIRTKEY, CONTROL, ALT, 
+                                                    NOINVERT
+    "F",            ID_EDICIN_PISTA_PROCESAREFECTO, VIRTKEY, CONTROL, 
+                                                    NOINVERT
+    "I",            ID_EDICIN_TABLASDEINSTRUMENTOS, VIRTKEY, CONTROL, 
+                                                    NOINVERT
+    "N",            ID_ARCHIVO_NUEVO,       VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_ARCHIVO_ABRIR,       VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_APP_EXIT,            VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE_AS,        VIRTKEY, CONTROL, ALT, NOINVERT
+    "V",            ID_EDICIN_PISTA_PROCESSARVOLUMEN, VIRTKEY, CONTROL, 
+                                                    NOINVERT
+    VK_ADD,         ID_BPM_INC,             VIRTKEY, CONTROL, ALT, NOINVERT
+    VK_F5,          ID_EDICIN_BLOQUE_COPIAR, VIRTKEY, NOINVERT
+    VK_F5,          ID_EDICIN_PATRN_COPIAR, VIRTKEY, CONTROL, NOINVERT
+    VK_F5,          ID_EDICIN_PISTA_COPIAR, VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_EDICIN_BLOQUE_CORTAR, VIRTKEY, NOINVERT
+    VK_F6,          ID_EDICIN_PATRN_CORTAR, VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_EDICIN_PISTA_CORTAR, VIRTKEY, SHIFT, NOINVERT
+    VK_F7,          ID_EDICIN_BLOQUE_PEGAR, VIRTKEY, NOINVERT
+    VK_F7,          ID_EDICIN_PATRN_PEGAR,  VIRTKEY, CONTROL, NOINVERT
+    VK_F7,          ID_EDICIN_PISTA_PEGAR,  VIRTKEY, SHIFT, NOINVERT
+    VK_F8,          ID_EDICIN_BLOQUE_BORRAR, VIRTKEY, NOINVERT
+    VK_F8,          ID_EDICIN_PATRN_BORRAR, VIRTKEY, CONTROL, NOINVERT
+    VK_F8,          ID_EDICIN_PISTA_BORRAR, VIRTKEY, SHIFT, NOINVERT
+    VK_SUBTRACT,    ID_BPM_DEC,             VIRTKEY, CONTROL, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Acerca de TTVC_MFC2"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "TTVC_MFC2 Versión 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "Aceptar",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_BREP DIALOG DISCARDABLE  0, 0, 220, 84
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Barra de Reproduccion"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_TRACKPROPS DIALOG DISCARDABLE  0, 0, 251, 217
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,195,179,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,195,195,50,14
+    EDITTEXT        1000,7,18,175,14,ES_AUTOHSCROLL
+    COMBOBOX        1001,7,49,176,57,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        1002,7,79,176,59,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        1003,7,130,176,79,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "",1004,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,184,74,9,8
+    CONTROL         "",1005,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,184,83,9,
+                    10
+    PUSHBUTTON      "Cargar Lista de Instrumentos",1006,7,97,175,16
+    PUSHBUTTON      "Inicializar",1007,185,97,60,16
+    COMBOBOX        1009,185,130,58,79,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_BSEQ DIALOG DISCARDABLE  0, 0, 150, 143
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST_SEQ,11,19,127,48,LBS_OWNERDRAWFIXED | 
+                    LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | NOT 
+                    WS_BORDER | WS_VSCROLL
+    LTEXT           "Static",IDC_ST_TITLE,11,91,127,11,SS_NOTIFY
+    LTEXT           "Static",IDC_ST_AUTOR,11,122,127,11,SS_NOTIFY
+END
+
+IDD_INPUTBOX DIALOG DISCARDABLE  0, 0, 186, 62
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,79,41,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,41,50,14
+    EDITTEXT        IDC_EDIT1,7,19,172,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,7,7,172,12,ES_READONLY | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Aplicación MFC TTVC_MFC2\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "TTVC_MFC2\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "TTVC_MFC2.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Aplicación TTVC_MFC2\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_BREP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_TRACKPROPS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 209
+    END
+
+    IDD_BSEQ, DIALOG
+    BEGIN
+        LEFTMARGIN, 11
+        RIGHTMARGIN, 138
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_INPUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "The Tracker"
+    IDR_TTVC_MTYPE          "\nTTVC_M\nTTVC_M"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_APP_TITLE           "Techno Tracker VC"
+    AFX_IDS_IDLEMESSAGE     "Preparado"
+    AFX_SURE_TO_INIT_SONG   "¿Estas seguro de querer inicializar el tema?"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "MAY"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "DESP"
+    ID_INDICATOR_OVR        "SOB"
+    ID_INDICATOR_REC        "GRB"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Crea un nuevo documento\nNuevo"
+    ID_FILE_CLOSE           "Cierra el documento activo\nCerrar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Muestra información del programa, número de versión y copyright\nAcerca de"
+    ID_APP_EXIT             "Sale de la aplicación; le pide que guarde los documentos\nSalir"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Cambia a la siguiente sección de ventana\nSiguiente sección"
+    ID_PREV_PANE            "Vuelve a la sección de ventana anterior\nSección anterior"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_ARRANGE       "Organiza los iconos en la parte inferior de la ventana\nOrganizar iconos"
+    ID_WINDOW_CASCADE       "Organiza las ventanas de modo que se superpongan\nVentanas en cascada"
+    ID_WINDOW_TILE_HORZ     "Organiza las ventanas como mosaicos que no se superponen\nVentanas en mosaico"
+    ID_WINDOW_TILE_VERT     "Organiza las ventanas como mosaicos que no se superponen\nVentanas en mosaico"
+    ID_WINDOW_SPLIT         "Divide la ventana activa en secciones\nDividir"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Borra la selección\nBorrar"
+    ID_EDIT_CLEAR_ALL       "Borra todo\nBorrar todo"
+    ID_EDIT_COPY            "Copia la selección y la coloca en el portapapeles\nCopiar"
+    ID_EDIT_CUT             "Corta la selección y la coloca en el portapapeles\nCortar"
+    ID_EDIT_FIND            "Buscaa el texto especificado\nBuscar"
+    ID_EDIT_PASTE           "Inserta el contenido del portapapeles\nPegar"
+    ID_EDIT_REPEAT          "Repite la última acción\nRepetir"
+    ID_EDIT_REPLACE         "Reemplaza texto específico por otro texto\nReemplazar"
+    ID_EDIT_SELECT_ALL      "Selecciona todo el documento\nSeleccionar todo"
+    ID_EDIT_UNDO            "Deshace la última acción\nDeshacer"
+    ID_EDIT_REDO            "Rehace la acción que acaba de deshacerse\nRehacer"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Muestra u oculta la barra de estado\nAlternar Barra de estado"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Cambia el tamaño de la ventana"
+    AFX_IDS_SCMOVE          "Cambia la posición de la ventana"
+    AFX_IDS_SCMINIMIZE      "Reduce la ventana a un icono"
+    AFX_IDS_SCMAXIMIZE      "Agranda la ventana al tamaño completo"
+    AFX_IDS_SCNEXTWINDOW    "Cambia a la ventana del siguiente documento"
+    AFX_IDS_SCPREVWINDOW    "Cambia a la ventana del documento anterior"
+    AFX_IDS_SCCLOSE         "Cierra la ventana activa y le pide que guarde los documentos"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restaura la ventana a su tamaño normal"
+    AFX_IDS_SCTASKLIST      "Activa la lista de tareas"
+    AFX_IDS_MDICHILD        "Activa esta ventana"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_BEDWND_TITLE        "Barra de Edicion"
+    IDS_BEDWND_CLASSNAME    "TTVCBEd"
+    IDS_PATTEDWND_CLASSNAME "TTVCPattEd"
+    IDS_PATTEDWND_TITLE     "Editor de Patrones"
+    IDS_BREPWND_CLASSNAME   "TTVCBRep"
+    IDS_BREPWND_TITLE       "Barra de Reproduccion"
+END
+
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\TTVC_MFC2.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.esp\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

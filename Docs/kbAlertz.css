@@ -1,0 +1,133 @@
+body {  background-color: #FFCC00; font-family: Tahoma; font-size:x-small; color: #000000; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
+TD { font-family: Tahoma; font-size:x-small; color: #000000; }
+.SLOGAN { font-family: Tahoma; font-size: 18px; color: #000000; }
+.LargeText1 { font-family: Tahoma; font-size: 12px; color: #000000; }
+
+
+.navbarline {  background-image: url(backgrou.gif)}
+.navbar {  background-image: url(backgrov.gif); font-family: Tahoma; font-size: 12px; font-weight: bold; color: #FFCC00; text-decoration: none}
+.navbarlinks {  font-family: Tahoma; font-size: 12px; font-weight: bold; color: #FFCC00; text-decoration: none}
+a:hover {  text-decoration: underline}
+BODY {scrollbar-3dlight-color:;
+           scrollbar-arrow-color:#FF0000;
+           scrollbar-base-color:;
+           scrollbar-darkshadow-color:;
+           scrollbar-face-color:#FFCC00;
+           scrollbar-highlight-color:;
+           scrollbar-shadow-color:}
+.emailtop {  background-image: url(backgoun.gif)}
+.emailbottom { background-image: url(backgrow.gif) }
+.emailright { background-image: url(backgrox.gif) }
+.emailleft { background-image: url(backgroy.gif) }
+.emailcontent { background-color:#D6CCA3 }
+
+.techtop {  background-image: url(backgroz.gif)}
+.techbottom { background-image: url(backgrp0.gif) }
+.techright { background-image: url(backgrp1.gif) }
+.techleft { background-image: url(backgrp2.gif) }
+.techcontent { background-color:#FFFFEE }
+
+.FeedbackComments 
+{
+	border-top: solid 1px #cccccc; 
+	padding-top: 1em;  
+	margin-top: 2em; 
+}
+
+.feedbackTitle
+{
+	BORDER-TOP: 1px dashed #000000;
+	BORDER-LEFT: 1px dashed #000000;
+	MARGIN-TOP: 2px; 
+	MARGIN-LEFT: 2px;  
+	PADDING-TOP: 5px; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-LEFT: 20px; 
+	BORDER-BOTTOM-WIDTH: thin; 
+	MARGIN-BOTTOM: 2px; 
+	BACKGROUND-COLOR: #D6CCA3;
+}
+.feedbackTitleText
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.feedbackContent TD
+{
+	MARGIN-TOP: 2px; 
+	MARGIN-LEFT: 2px;  
+	PADDING-TOP: 5px; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-LEFT: 20px; 
+	BORDER-BOTTOM-WIDTH: thin; 
+	MARGIN-BOTTOM: 2px; 
+	BORDER-BOTTOM-COLOR: red; 
+	BACKGROUND-COLOR: #eee5bc;
+	font-size: 12px; color: #000000;
+}
+
+.inputwidths 
+{
+	width:165px;
+	font-family: Tahoma; 
+	font-size:x-small color: #000000; 
+	background-color:#FFFFFF; 
+	border-color:#000000;
+	border-width:1px;
+	border-style:Solid;
+}
+.flatinput
+{
+	font-family: Tahoma; 
+	font-size: x-small; color: #000000; 
+	background-color:#FFFFFF; 
+	border-color:#000000;
+	border-width:1px;
+	border-style:Solid;
+}
+INPUT 
+{
+	font-family: Tahoma; 
+	font-size: x-small; 
+	color: #000000; 
+	background-color:#FFFFEE 
+}
+.WhiteTextInput 
+{	
+	font-family: Tahoma; 
+	font-size: x-small; color: #000000; 
+	background-color:#FFFFFF; 
+	border-color:#000000;
+	border-width:1px;
+	border-style:Solid;
+}
+.FlatButton 
+{
+	color:Black;
+	background-color:#D6CCA3;
+	border-color:#000000;
+	border-width:1px;
+	border-style:Solid;
+	font-family:Tahoma;
+	font-size:8pt;
+	font-weight:bold; 
+	cursor:hand; 
+}
+.FlatButtonLight
+{
+	color:Black;
+	background-color:#FFFFEE;
+	border-color:#000000;
+	border-width:1px;
+	border-style:Solid;
+	font-family:Tahoma;
+	font-size:8pt;
+	font-weight:bold; 
+	cursor:hand; 
+}
+
+.test{ 
+border-color:#336699;
+border: 3px solid #336699;
+}
